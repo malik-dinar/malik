@@ -20,7 +20,7 @@ function issname(){
     {
         document.getElementById("nameOneWarning").innerHTML= "name cannot be empty"
     } 
-    else if(/^[A-Za-z ]+$/.test(y))
+    else if (/^[A-Za-z]+[ A-Za-z]+$/.test(y))
     {
         document.getElementById("nameOneWarning").innerHTML= ""
     }
